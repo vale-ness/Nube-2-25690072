@@ -1,0 +1,1 @@
+# Ejericio 2: Comparacion de REST y graphql
