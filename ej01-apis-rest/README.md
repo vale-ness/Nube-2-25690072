@@ -12,6 +12,7 @@
 | Sin Clave / Clave inválida | GET | 401 | 277 ms | 108 B |
 
 ---
+
 Ej1. con los curl tuve algunos problemas al momento de escribirlos en cmd porque los estaba acomodando mal. Después pude hacerlos
 
 Ej2. con la PokeAPI solo copié el código y pedí la información de Pikachu. Con datos=json pude entrar a "abilities" para obtener sus habilidades y la petición fue GET y dio 200.
@@ -19,6 +20,7 @@ Ej2. con la PokeAPI solo copié el código y pedí la información de Pikachu. C
 Ej3. después hice el pronóstico de Ciudad Valles con OpenWeatherMap, tuve que conseguir una API key, guardarla en un archivo .env y usar dotenv para poder leerla desde el código.
 
 Ej4. hice pruebas con los errores, para el 404 lo provoqué poniendo algo que no existe en la URL, y el 401 salió al intentar usar WeatherMap sin la API key.
+
 ---
 
 ## preguntas
