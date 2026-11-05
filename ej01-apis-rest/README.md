@@ -11,23 +11,14 @@
 | Recurso Inexistente | GET | 404 | 207 ms | 2 B |
 | Sin Clave / Clave inválida | GET | 401 | 277 ms | 108 B |
 
----
-
-Ej1. con los curl tuve algunos problemas al momento de escribirlos en cmd porque los estaba acomodando mal. Después pude hacerlos
-
-Ej2. con la PokeAPI solo copié el código y pedí la información de Pikachu. Con datos=json pude entrar a "abilities" para obtener sus habilidades y la petición fue GET y dio 200.
-
-Ej3. después hice el pronóstico de Ciudad Valles con OpenWeatherMap, tuve que conseguir una API key, guardarla en un archivo .env y usar dotenv para poder leerla desde el código.
-
-Ej4. hice pruebas con los errores, para el 404 lo provoqué poniendo algo que no existe en la URL, y el 401 salió al intentar usar WeatherMap sin la API key.
-
----
 
 ## preguntas
 
 * **¿Qué parte de la respuesta realmente usaste?**
 Solo los datos que pedí como la altura y habilidades de Pikachu, confirmación de las publicaciones, temperatura y descripción del clima, y los códigos de estado. Todo el resto de la información que llegó no la usé.
 
-* **¿Qué porcentaje de los bytes recibidos fue innecesario?**
+* **¿qué porcentaje de los bytes recibidos fue innecesario?**
 más del 95% de lo que bajó no se utilizó
 
+Reflexión
+En esta actividad aprendí a realizar peticiones a diferentes APIs y a interpretar sus respuestas, tmbn aprendí a manejar errores como el 404 cuando un recurso no existe, y el 401 cuando falta una clave de acceso o es inválida. En los resultados observe de que recibimos mucha información que no siempre necesitamos, por lo que es importante solicitar solo los datos necesarios para aprovechar mejor los recursos.
